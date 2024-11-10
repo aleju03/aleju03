@@ -1,4 +1,3 @@
-<h1 align="center">Hi 👋, I'm aleju03</h1>
 <h3 align="center">
   <a href="https://github.com/DenverCoder1/readme-typing-svg">
     <img src="https://readme-typing-svg.demolab.com/?lines=Full-Stack%20Developer;Always%20learning%20new%20things&font=Fira%20Code&center=true&width=440&height=45&color=f75c7e&vCenter=true&pause=1000&size=22" />
@@ -25,19 +24,10 @@
 ![Firebase](https://custom-icon-badges.demolab.com/badge/-Firebase-FFA611?style=for-the-badge&logo=firebase&logoColor=black)
 
 ## 📊 GitHub Stats
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=aleju03&theme=dark&hide_border=false" alt="GitHub Streak" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aleju03&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact" alt="Top Languages" />
-</p>
-
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=aleju03&theme=radical&no-frame=false&no-bg=true&margin-w=4)
-
-## 🎯 Profile Stats Card
-![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=aleju03&theme=monokai)
+<div align="center" style="display: flex; flex-direction: row;">
+  <img width="50%" src="https://github-readme-streak-stats.herokuapp.com/?user=aleju03&theme=dark&hide_border=false" alt="GitHub Streak" />
+  <img width="42%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aleju03&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact" alt="Top Languages" />
+</div>
 
 ## 💭 Random Dev Quote
 <p align="center">
