@@ -33,6 +33,7 @@
 [![Node.js](https://custom-icon-badges.demolab.com/badge/-Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
 
 [![PostgreSQL](https://custom-icon-badges.demolab.com/badge/-PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+[![Supabase](https://custom-icon-badges.demolab.com/badge/-Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)](https://supabase.com/)
 [![SQL Server](https://custom-icon-badges.demolab.com/badge/-SQL%20Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)](https://www.microsoft.com/sql-server/)
 [![SQLite](https://custom-icon-badges.demolab.com/badge/-SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)](https://www.sqlite.org/)
 [![Firebase](https://custom-icon-badges.demolab.com/badge/-Firebase-FFA611?style=for-the-badge&logo=firebase&logoColor=black)](https://firebase.google.com/)
