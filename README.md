@@ -12,16 +12,11 @@
 [![Python](https://custom-icon-badges.demolab.com/badge/-Python-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Java](https://custom-icon-badges.demolab.com/badge/-Java-red?style=for-the-badge&logo=java&logoColor=white)](https://www.java.com/)
 [![JavaScript](https://custom-icon-badges.demolab.com/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![Go](https://custom-icon-badges.demolab.com/badge/-Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)](https://golang.org/)
-[![C++](https://custom-icon-badges.demolab.com/badge/-C++-00599C?style=for-the-badge&logo=cpp&logoColor=white)](https://isocpp.org/)
-[![F#](https://custom-icon-badges.demolab.com/badge/-F%23-378BBA?style=for-the-badge&logo=fsharp&logoColor=white)](https://fsharp.org/)
-[![Prolog](https://custom-icon-badges.demolab.com/badge/-Prolog-FF4F4F?style=for-the-badge&logo=prolog&logoColor=white)](https://www.swi-prolog.org/)
 
 [![HTML](https://custom-icon-badges.demolab.com/badge/-HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![CSS](https://custom-icon-badges.demolab.com/badge/-CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 [![TailwindCSS](https://custom-icon-badges.demolab.com/badge/-Tailwind%20CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
 [![React](https://custom-icon-badges.demolab.com/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org/)
-[![Avalonia](https://custom-icon-badges.demolab.com/badge/-Avalonia-8B44AC?style=for-the-badge&logo=avalonia&logoColor=white)](https://avaloniaui.net/)
 
 [![React Native](https://custom-icon-badges.demolab.com/badge/-React%20Native-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactnative.dev/)
 [![Flutter](https://custom-icon-badges.demolab.com/badge/-Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev/)
