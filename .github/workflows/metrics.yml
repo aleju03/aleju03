@@ -1,0 +1,41 @@
+# Setup Instructions:
+# 1. Create a Personal Access Token (Classic) at https://github.com/settings/tokens
+#    - Select 'repo' scope (all checkboxes)
+#    - Copy the token
+# 2. Go to your repository Settings > Secrets and variables > Actions
+# 3. Create a new secret named METRICS_TOKEN with your GitHub token
+# 4. Get your Steam API key from https://steamcommunity.com/dev/apikey
+# 5. Create a new secret named STEAM_TOKEN with your Steam API key
+# 6. Find your Steam ID using https://www.steamidfinder.com/ (enter: Aleju03)
+# 7. Update the plugin_steam_user value below with your numerical Steam ID
+
+name: Metrics
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+  push:
+    branches: ["main"]
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: github-metrics.svg
+
+          user: aleju03
+          template: classic
+          base: ""
+          config_timezone: America/New_York
+          config_display: large
+
+          plugin_steam: yes
+          plugin_steam_token: ${{ secrets.STEAM_TOKEN }}
+          plugin_steam_user: "76561198145331488"
+          plugin_steam_sections: player, most-played, recently-played
+          plugin_steam_games_limit: 4
