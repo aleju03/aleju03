@@ -41,24 +41,3 @@ jobs:
           plugin_steam_recent_games_limit: 10
           plugin_steam_playtime_threshold: 0
 
-  habits-metrics:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          filename: habits-metrics.svg
-
-          user: aleju03
-          template: classic
-          base: ""
-          config_timezone: America/New_York
-          config_display: large
-
-          plugin_habits: yes
-          plugin_habits_facts: yes
-          plugin_habits_charts: no
-          plugin_habits_from: 200
-          plugin_habits_days: 14

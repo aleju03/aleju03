@@ -39,11 +39,6 @@
   <img src="https://github.com/aleju03/aleju03/blob/main/steam-metrics.svg" alt="Steam Metrics" />
 </p>
 
-## <img src="https://img.icons8.com/fluency/48/000000/light-on.png" width="28"/> Mildly Interesting Facts
-<p align="center">
-  <img src="https://github.com/aleju03/aleju03/blob/main/habits-metrics.svg" alt="Coding Habits" />
-</p>
-
 ## <img src="https://img.icons8.com/clouds/48/000000/chat.png" width="28"/> Random Dev Quote
 <p align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical&backgroundColor=0d1117" />
