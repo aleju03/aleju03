@@ -20,6 +20,7 @@
   <a href="https://developer.android.com/studio"><img src="https://skillicons.dev/icons?i=androidstudio" alt="Android Studio"/></a>
   <a href="https://fastapi.tiangolo.com/"><img src="https://skillicons.dev/icons?i=fastapi" alt="FastAPI"/></a>
   <a href="https://flask.palletsprojects.com/"><img src="https://skillicons.dev/icons?i=flask" alt="Flask"/></a>
+  <a href="https://www.docker.com/"><img src="https://skillicons.dev/icons?i=docker" alt="Docker"/></a>
   <a href="https://www.postgresql.org/"><img src="https://skillicons.dev/icons?i=postgres" alt="PostgreSQL"/></a>
   <a href="https://supabase.com/"><img src="https://skillicons.dev/icons?i=supabase" alt="Supabase"/></a>
   <a href="https://www.microsoft.com/sql-server/"><img src="https://go-skill-icons.vercel.app/api/icons?i=sqlserver" alt="SQL Server"/></a>
