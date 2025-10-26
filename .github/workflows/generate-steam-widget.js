@@ -116,10 +116,11 @@ function fetchPlayerAchievements(appid) {
 }
 
 function generateSVG(games) {
-  // Calculate dynamic height based on number of games (each game ~100px)
-  const baseHeight = 80;
-  const gameHeight = 100;
-  const height = baseHeight + (games.length * gameHeight);
+  // Calculate dynamic height based on number of games
+  const baseHeight = 70;
+  const gameHeight = 78;
+  const bottomPadding = 4;
+  const height = baseHeight + (games.length * gameHeight) + bottomPadding;
 
   let gameElements = '';
   games.forEach((game, index) => {
@@ -154,10 +155,10 @@ function generateSVG(games) {
     `;
   });
 
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="480" height="${height}" class="">
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="468" height="${height}" class="">
     <defs><style/></defs>
     <style>
-@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h2{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400;font-size:16px}h2 svg{fill:currentColor}section>.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}.steam .games{margin-left:28px}.steam .media{display:flex;margin-bottom:12px;width:450px}.steam .media img{margin:0 10px;border-radius:7px;height:32px;width:32px}.steam .media .about{flex-grow:1}.steam .media .name{display:flex;align-items:center;justify-content:space-between;font-size:14px;line-height:14px;color:#58a6ff;font-weight:600;margin-bottom:4px}.steam .media .infos{font-size:12px;color:#8b949e;display:flex;flex-wrap:wrap;align-items:center;gap:4px;margin-bottom:2px}.steam .media .infos>div{display:inline-flex;align-items:center;margin-right:12px}.steam .media .infos svg{fill:currentColor;height:12px;width:12px;margin:0 4px 0 0}#metrics-end{width:100%}
+@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h2{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400;font-size:16px}h2 svg{fill:currentColor}section>.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}.items-wrapper{padding:0;margin:0}.steam{padding:0;margin:0}.steam .games{margin-left:28px;margin-bottom:0}.steam .media{display:flex;margin-bottom:8px;width:450px}.steam .media img{margin:0 10px;border-radius:7px;height:32px;width:32px}.steam .media .about{flex-grow:1}.steam .media .name{display:flex;align-items:center;justify-content:space-between;font-size:14px;line-height:14px;color:#58a6ff;font-weight:600;margin-bottom:4px}.steam .media .infos{font-size:12px;color:#8b949e;display:flex;flex-wrap:wrap;align-items:center;gap:4px;margin-bottom:2px}.steam .media .infos>div{display:inline-flex;align-items:center;margin-right:12px}.steam .media .infos svg{fill:currentColor;height:12px;width:12px;margin:0 4px 0 0}.steam .media:last-child{margin-bottom:0}#metrics-end{display:none}
     </style>
     <foreignObject x="0" y="0" width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" class="items-wrapper">
