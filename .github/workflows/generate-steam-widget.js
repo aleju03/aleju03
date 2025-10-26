@@ -12,7 +12,7 @@ https.get(`https://api.steampowered.com/IPlayerService/GetRecentlyPlayedGames/v1
     data += chunk;
   });
 
-  res.on('end', () => {
+  res.on('end', async () => {
     const response = JSON.parse(data);
     const games = response.response.games || [];
 
@@ -22,8 +22,15 @@ https.get(`https://api.steampowered.com/IPlayerService/GetRecentlyPlayedGames/v1
     // Take top 5
     const topGames = games.slice(0, 5);
 
+    // Download and convert images to base64
+    const gamesWithImages = await Promise.all(topGames.map(async (game) => {
+      const imageUrl = `https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/${game.appid}/${game.img_icon_url}.jpg`;
+      const base64Image = await downloadImageAsBase64(imageUrl);
+      return { ...game, base64Image };
+    }));
+
     // Generate SVG
-    const svg = generateSVG(topGames);
+    const svg = generateSVG(gamesWithImages);
 
     // Write to file
     fs.writeFileSync('steam-metrics.svg', svg);
@@ -34,6 +41,20 @@ https.get(`https://api.steampowered.com/IPlayerService/GetRecentlyPlayedGames/v1
   process.exit(1);
 });
 
+function downloadImageAsBase64(url) {
+  return new Promise((resolve, reject) => {
+    https.get(url, (res) => {
+      const chunks = [];
+      res.on('data', (chunk) => chunks.push(chunk));
+      res.on('end', () => {
+        const buffer = Buffer.concat(chunks);
+        const base64 = buffer.toString('base64');
+        resolve(`data:image/jpg;base64,${base64}`);
+      });
+    }).on('error', reject);
+  });
+}
+
 function generateSVG(games) {
   const height = 140 + (games.length * 70);
 
@@ -43,7 +64,7 @@ function generateSVG(games) {
 
     gameElements += `
         <div class="media">
-          <img src="https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/${game.appid}/${game.img_icon_url}.jpg" alt=""/>
+          <img src="${game.base64Image}" alt=""/>
           <div class="about">
             <div class="name">${escapeXml(game.name)}</div>
             <div class="infos">
