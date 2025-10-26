@@ -18,6 +18,7 @@
   <a href="https://flutter.dev/"><img src="https://skillicons.dev/icons?i=flutter" alt="Flutter"/></a>
   <a href="https://expo.dev/"><img src="https://go-skill-icons.vercel.app/api/icons?i=expo" alt="Expo"/></a>
   <a href="https://developer.android.com/studio"><img src="https://skillicons.dev/icons?i=androidstudio" alt="Android Studio"/></a>
+  <a href="https://unity.com/"><img src="https://skillicons.dev/icons?i=unity" alt="Unity"/></a>
   <a href="https://fastapi.tiangolo.com/"><img src="https://skillicons.dev/icons?i=fastapi" alt="FastAPI"/></a>
   <a href="https://flask.palletsprojects.com/"><img src="https://skillicons.dev/icons?i=flask" alt="Flask"/></a>
   <a href="https://www.docker.com/"><img src="https://skillicons.dev/icons?i=docker" alt="Docker"/></a>
