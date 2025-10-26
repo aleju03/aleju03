@@ -35,9 +35,7 @@
 </div>
 
 ## <img src="https://img.icons8.com/color/48/000000/steam.png" width="28"/> Steam Activity
-<p align="center">
-  <img src="https://github.com/aleju03/aleju03/blob/main/steam-metrics.svg" alt="Steam Metrics" />
-</p>
+<img src="https://github.com/aleju03/aleju03/blob/main/steam-metrics.svg" alt="Steam Metrics" />
 
 ## <img src="https://img.icons8.com/clouds/48/000000/chat.png" width="28"/> Random Dev Quote
 <p align="center">
