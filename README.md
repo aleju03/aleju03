@@ -41,5 +41,5 @@
 
 ## <img src="https://img.icons8.com/clouds/48/000000/chat.png" width="28"/> Random Dev Quote
 <p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" />
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical&backgroundColor=0d1117" />
 </p>
