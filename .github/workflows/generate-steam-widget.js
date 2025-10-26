@@ -35,38 +35,46 @@ https.get(`https://api.steampowered.com/IPlayerService/GetRecentlyPlayedGames/v1
 });
 
 function generateSVG(games) {
-  const height = 60 + (games.length * 80);
+  const height = 140 + (games.length * 70);
 
   let gameElements = '';
   games.forEach((game, index) => {
-    const y = 60 + (index * 80);
     const hours = Math.round(game.playtime_2weeks / 60 * 10) / 10;
 
     gameElements += `
-      <g transform="translate(20, ${y})">
-        <image href="http://media.steampowered.com/steamcommunity/public/images/apps/${game.appid}/${game.img_icon_url}.jpg"
-               width="64" height="64" x="0" y="0"/>
-        <text x="80" y="25" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 16px; fill: #58a6ff; font-weight: 600;">
-          ${escapeXml(game.name)}
-        </text>
-        <text x="80" y="45" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 14px; fill: #8b949e;">
-          ${hours} hours played (last 2 weeks)
-        </text>
-      </g>
+        <div class="media">
+          <img src="https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/${game.appid}/${game.img_icon_url}.jpg" alt=""/>
+          <div class="about">
+            <div class="name">${escapeXml(game.name)}</div>
+            <div class="infos">
+              <div>${hours} hours played (last 2 weeks)</div>
+            </div>
+          </div>
+        </div>
     `;
   });
 
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="500" height="${height}" viewBox="0 0 500 ${height}">
-  <style>
-    .header { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
-  </style>
-  <rect width="500" height="${height}" fill="#0d1117"/>
-
-  <text x="20" y="35" class="header" style="font-size: 20px; fill: #58a6ff; font-weight: 600;">
-    🎮 Recently Played Games
-  </text>
-
-  ${gameElements}
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="480" height="${height}" class="">
+    <defs><style/></defs>
+    <style>
+@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h2{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400;font-size:16px}h2 svg{fill:currentColor}section>.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}.steam .games{margin-left:28px}.steam .media{display:flex;margin-bottom:4px;width:450px}.steam .media img{margin:0 10px;border-radius:7px;height:32px;width:32px}.steam .media .about{flex-grow:1}.steam .media .name{display:flex;align-items:center;justify-content:space-between;font-size:14px;line-height:14px;color:#58a6ff}.steam .media .infos{font-size:12px;color:#666}#metrics-end{width:100%}
+    </style>
+    <foreignObject x="0" y="0" width="100%" height="100%">
+        <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" class="items-wrapper">
+            <section class="steam">
+                <h2 class="field">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                        <path fill-rule="evenodd" d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zm.5 4.75a.75.75 0 00-1.5 0v3.5a.75.75 0 00.471.696l2.5 1a.75.75 0 00.557-1.392L8.5 7.742V4.75z"/>
+                    </svg>
+                    Recently played
+                </h2>
+                <div class="games">
+${gameElements}
+                </div>
+            </section>
+        </div>
+        <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
+    </foreignObject>
 </svg>`;
 }
 
