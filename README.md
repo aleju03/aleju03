@@ -15,6 +15,7 @@
         <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img src="https://skillicons.dev/icons?i=css" alt="CSS"/></a>
         <a href="https://tanstack.com/start"><img src="https://go-skill-icons.vercel.app/api/icons?i=tanstack" alt="TanStack Start"/></a>
         <a href="https://turso.tech/"><img src="https://go-skill-icons.vercel.app/api/icons?i=turso" alt="Turso"/></a>
+        <a href="https://www.sqlite.org/"><img src="https://skillicons.dev/icons?i=sqlite" alt="SQLite"/></a>
       </p>
     </td>
     <td align="center" width="33%">
@@ -36,6 +37,8 @@
         <a href="https://firebase.google.com/"><img src="https://skillicons.dev/icons?i=firebase" alt="Firebase"/></a>
         <a href="https://redis.io/"><img src="https://skillicons.dev/icons?i=redis" alt="Redis"/></a>
         <a href="https://www.docker.com/"><img src="https://skillicons.dev/icons?i=docker" alt="Docker"/></a>
+        <a href="https://www.hetzner.com/cloud/"><img src="./assets/hetzner.svg" alt="Hetzner" width="48" height="48"/></a>
+        <a href="https://caddyserver.com/"><img src="https://go-skill-icons.vercel.app/api/icons?i=caddy" alt="Caddy"/></a>
         <a href="https://vercel.com/"><img src="https://skillicons.dev/icons?i=vercel" alt="Vercel"/></a>
         <a href="https://git-scm.com/"><img src="https://skillicons.dev/icons?i=git" alt="Git"/></a>
         <a href="https://code.visualstudio.com/"><img src="https://skillicons.dev/icons?i=vscode" alt="VS Code"/></a>
