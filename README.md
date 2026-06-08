@@ -13,6 +13,8 @@
         <a href="https://www.typescriptlang.org/"><img src="https://skillicons.dev/icons?i=ts" alt="TypeScript"/></a>
         <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src="https://skillicons.dev/icons?i=html" alt="HTML"/></a>
         <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img src="https://skillicons.dev/icons?i=css" alt="CSS"/></a>
+        <a href="https://tanstack.com/start"><img src="https://go-skill-icons.vercel.app/api/icons?i=tanstack" alt="TanStack Start"/></a>
+        <a href="https://turso.tech/"><img src="https://go-skill-icons.vercel.app/api/icons?i=turso" alt="Turso"/></a>
       </p>
     </td>
     <td align="center" width="33%">
@@ -23,6 +25,8 @@
         <a href="https://nodejs.org/"><img src="https://skillicons.dev/icons?i=nodejs" alt="Node.js"/></a>
         <a href="https://expressjs.com/"><img src="https://skillicons.dev/icons?i=express" alt="Express"/></a>
         <a href="https://fastapi.tiangolo.com/"><img src="https://skillicons.dev/icons?i=fastapi" alt="FastAPI"/></a>
+        <a href="https://azure.microsoft.com/products/devops"><img src="https://go-skill-icons.vercel.app/api/icons?i=azuredevops" alt="Azure DevOps"/></a>
+        <a href="https://argo-cd.readthedocs.io/"><img src="https://go-skill-icons.vercel.app/api/icons?i=argocd" alt="Argo CD"/></a>
       </p>
     </td>
     <td align="center" width="33%">
@@ -36,16 +40,6 @@
         <a href="https://git-scm.com/"><img src="https://skillicons.dev/icons?i=git" alt="Git"/></a>
         <a href="https://code.visualstudio.com/"><img src="https://skillicons.dev/icons?i=vscode" alt="VS Code"/></a>
         <a href="https://developer.android.com/studio"><img src="https://skillicons.dev/icons?i=androidstudio" alt="Android Studio"/></a>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" colspan="3">
-      <p>
-        <a href="https://tanstack.com/start"><img src="https://go-skill-icons.vercel.app/api/icons?i=tanstack" alt="TanStack Start"/></a>
-        <a href="https://turso.tech/"><img src="https://go-skill-icons.vercel.app/api/icons?i=turso" alt="Turso"/></a>
-        <a href="https://azure.microsoft.com/products/devops"><img src="https://go-skill-icons.vercel.app/api/icons?i=azuredevops" alt="Azure DevOps"/></a>
-        <a href="https://argo-cd.readthedocs.io/"><img src="https://go-skill-icons.vercel.app/api/icons?i=argocd" alt="Argo CD"/></a>
         <a href="https://openai.com/codex/"><img src="https://go-skill-icons.vercel.app/api/icons?i=chatgpt" alt="Codex"/></a>
         <a href="https://www.anthropic.com/claude-code"><img src="https://go-skill-icons.vercel.app/api/icons?i=claude" alt="Claude Code"/></a>
       </p>
