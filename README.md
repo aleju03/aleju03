@@ -40,7 +40,7 @@
         <a href="https://git-scm.com/"><img src="https://skillicons.dev/icons?i=git" alt="Git"/></a>
         <a href="https://code.visualstudio.com/"><img src="https://skillicons.dev/icons?i=vscode" alt="VS Code"/></a>
         <a href="https://developer.android.com/studio"><img src="https://skillicons.dev/icons?i=androidstudio" alt="Android Studio"/></a>
-        <a href="https://openai.com/codex/"><img src="https://go-skill-icons.vercel.app/api/icons?i=chatgpt" alt="Codex"/></a>
+        <a href="https://openai.com/codex/"><img src="https://cdn.jsdelivr.net/npm/@lobehub/icons-static-svg@latest/icons/codex-color.svg" alt="Codex" width="48" height="48"/></a>
         <a href="https://www.anthropic.com/claude-code"><img src="https://go-skill-icons.vercel.app/api/icons?i=claude" alt="Claude Code"/></a>
       </p>
     </td>
