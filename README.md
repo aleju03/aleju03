@@ -27,7 +27,7 @@
     </td>
     <td align="center" width="33%">
       <p>
-        <a href="https://expo.dev/"><img src="https://skillicons.dev/icons?i=expo" alt="Expo"/></a>
+        <a href="https://expo.dev/"><img src="https://go-skill-icons.vercel.app/api/icons?i=expo" alt="Expo"/></a>
         <a href="https://flutter.dev/"><img src="https://skillicons.dev/icons?i=flutter" alt="Flutter"/></a>
         <a href="https://firebase.google.com/"><img src="https://skillicons.dev/icons?i=firebase" alt="Firebase"/></a>
         <a href="https://redis.io/"><img src="https://skillicons.dev/icons?i=redis" alt="Redis"/></a>
@@ -42,12 +42,12 @@
   <tr>
     <td align="center" colspan="3">
       <p>
-        <a href="https://tanstack.com/start"><img src="https://img.shields.io/badge/TanStack_Start-FF4154?style=for-the-badge&logo=reactrouter&logoColor=white" alt="TanStack Start"/></a>
-        <a href="https://turso.tech/"><img src="https://img.shields.io/badge/Turso-4FF8D2?style=for-the-badge&logo=sqlite&logoColor=111111" alt="Turso"/></a>
-        <a href="https://azure.microsoft.com/products/devops"><img src="https://img.shields.io/badge/Azure_DevOps-0078D7?style=for-the-badge&logo=azuredevops&logoColor=white" alt="Azure DevOps"/></a>
-        <a href="https://argo-cd.readthedocs.io/"><img src="https://img.shields.io/badge/Argo_CD-EF7B4D?style=for-the-badge&logo=argo&logoColor=white" alt="Argo CD"/></a>
-        <a href="https://openai.com/codex/"><img src="https://img.shields.io/badge/Codex-111111?style=for-the-badge&logo=openai&logoColor=white" alt="Codex"/></a>
-        <a href="https://www.anthropic.com/claude-code"><img src="https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude Code"/></a>
+        <a href="https://tanstack.com/start"><img src="https://go-skill-icons.vercel.app/api/icons?i=tanstack" alt="TanStack Start"/></a>
+        <a href="https://turso.tech/"><img src="https://go-skill-icons.vercel.app/api/icons?i=turso" alt="Turso"/></a>
+        <a href="https://azure.microsoft.com/products/devops"><img src="https://go-skill-icons.vercel.app/api/icons?i=azuredevops" alt="Azure DevOps"/></a>
+        <a href="https://argo-cd.readthedocs.io/"><img src="https://go-skill-icons.vercel.app/api/icons?i=argocd" alt="Argo CD"/></a>
+        <a href="https://openai.com/codex/"><img src="https://go-skill-icons.vercel.app/api/icons?i=chatgpt" alt="Codex"/></a>
+        <a href="https://www.anthropic.com/claude-code"><img src="https://go-skill-icons.vercel.app/api/icons?i=claude" alt="Claude Code"/></a>
       </p>
     </td>
   </tr>
