@@ -44,7 +44,7 @@
         <a href="https://code.visualstudio.com/"><img src="https://skillicons.dev/icons?i=vscode" alt="VS Code"/></a>
         <a href="https://developer.android.com/studio"><img src="https://skillicons.dev/icons?i=androidstudio" alt="Android Studio"/></a>
         <a href="https://openai.com/codex/"><img src="https://cdn.jsdelivr.net/npm/@lobehub/icons-static-svg@latest/icons/codex-color.svg" alt="Codex" width="48" height="48"/></a>
-        <a href="https://www.anthropic.com/claude-code"><img src="https://cdn.jsdelivr.net/npm/@lobehub/icons-static-svg@latest/icons/claudecode-color.svg" alt="Claude Code" width="42" height="42"/></a>
+        <a href="https://www.anthropic.com/claude-code"><img src="./assets/claudecode.svg" alt="Claude Code" width="48" height="48"/></a>
       </p>
     </td>
   </tr>
