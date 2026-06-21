@@ -79,7 +79,7 @@
 ## <img src="https://img.icons8.com/color/48/000000/bar-chart.png" width="28"/> GitHub Stats
 
 <div align="center">
-  <img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=aleju03&hide_border=true&background=0d1117&ring=00c6ff&fire=00c6ff&currStreakNum=00c6ff&currStreakLabel=58a6ff&sideNums=58a6ff&sideLabels=8b949e&dates=8b949e&stroke=1f6feb" alt="GitHub Streak" />
+  <img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=aleju03&hide_border=true&background=0d1117&ring=ff8c00&fire=ff8c00&currStreakNum=ff8c00&currStreakLabel=ff8c00&sideNums=58a6ff&sideLabels=8b949e&dates=8b949e&stroke=1f6feb" alt="GitHub Streak" />
   <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aleju03&title_color=00c6ff&text_color=c9d1d9&bg_color=0d1117&hide_border=true&include_all_commits=true&count_private=true&layout=compact" alt="Top Languages" />
 </div>
 
