@@ -75,13 +75,10 @@
 
 ## <img src="https://img.icons8.com/color/48/000000/bar-chart.png" width="28"/> GitHub Stats
 
-<p align="center">
-  <img width="420" src="https://github-readme-streak-stats.herokuapp.com/?user=aleju03&hide_border=true&background=0d1117&ring=00c6ff&fire=00c6ff&currStreakNum=00c6ff&currStreakLabel=58a6ff&sideNums=58a6ff&sideLabels=8b949e&dates=8b949e&stroke=1f6feb" alt="GitHub Streak" />
-</p>
-
-<p align="center">
-  <img width="420" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aleju03&title_color=00c6ff&text_color=c9d1d9&bg_color=0d1117&hide_border=true&include_all_commits=true&count_private=true&layout=compact" alt="Top Languages" />
-</p>
+<div align="center">
+  <img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=aleju03&hide_border=true&background=0d1117&ring=00c6ff&fire=00c6ff&currStreakNum=00c6ff&currStreakLabel=58a6ff&sideNums=58a6ff&sideLabels=8b949e&dates=8b949e&stroke=1f6feb" alt="GitHub Streak" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aleju03&title_color=00c6ff&text_color=c9d1d9&bg_color=0d1117&hide_border=true&include_all_commits=true&count_private=true&layout=compact" alt="Top Languages" />
+</div>
 
 <p align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&backgroundColor=0d1117&quoteColor=c9d1d9&authorColor=58a6ff&symbolColor=00c6ff" />
