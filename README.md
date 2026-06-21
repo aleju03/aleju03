@@ -51,11 +51,12 @@
       <a href="https://www.hetzner.com/cloud/"><img src="./assets/hetzner.svg" alt="Hetzner" width="48" height="48"/></a>
       <a href="https://caddyserver.com/"><img src="https://go-skill-icons.vercel.app/api/icons?i=caddy" alt="Caddy"/></a>
       <a href="https://vercel.com/"><img src="https://skillicons.dev/icons?i=vercel" alt="Vercel"/></a>
+      <br />
       <a href="https://azure.microsoft.com/products/devops"><img src="https://go-skill-icons.vercel.app/api/icons?i=azuredevops" alt="Azure DevOps"/></a>
       <a href="https://argo-cd.readthedocs.io/"><img src="https://go-skill-icons.vercel.app/api/icons?i=argocd" alt="Argo CD"/></a>
-      <br />
       <a href="https://git-scm.com/"><img src="https://skillicons.dev/icons?i=git" alt="Git"/></a>
       <a href="https://code.visualstudio.com/"><img src="https://skillicons.dev/icons?i=vscode" alt="VS Code"/></a>
+      <br />
       <a href="https://developer.android.com/studio"><img src="https://skillicons.dev/icons?i=androidstudio" alt="Android Studio"/></a>
       <a href="https://unity.com/"><img src="https://skillicons.dev/icons?i=unity" alt="Unity"/></a>
       <a href="https://openai.com/codex/"><img src="https://cdn.jsdelivr.net/npm/@lobehub/icons-static-svg@latest/icons/codex-color.svg" alt="Codex" width="48" height="48"/></a>
