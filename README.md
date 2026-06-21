@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=venom&height=200&color=0:667eea,50:764ba2,100:f093fb&text=Alejandro%20Jiménez&fontAlign=50&fontColor=ffffff&fontSize=50&desc=Full%20Stack%20Developer%20%7C%20Building%20Digital%20Experiences&descAlign=50&descAlignY=75&animation=fadeIn" />
+  <img src="https://capsule-render.vercel.app/api?type=venom&height=200&color=0:00c6ff,50:0091f7,100:0052cc&text=Alejandro%20Jiménez&fontAlign=50&fontColor=ffffff&fontSize=50&desc=Full%20Stack%20Developer%20%7C%20Building%20Digital%20Experiences&descAlign=50&descAlignY=75&animation=fadeIn" />
 </p>
 
 <p align="center">
-  <a href="https://aleju03.github.io/"><img src="https://img.shields.io/badge/Portfolio-764ba2?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=667eea" alt="Portfolio" /></a>
+  <a href="https://aleju03.github.io/"><img src="https://img.shields.io/badge/Portfolio-0072ff?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0052cc" alt="Portfolio" /></a>
 </p>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:667eea,50:764ba2,100:f093fb&section=header" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:00c6ff,50:0091f7,100:0052cc&section=header" width="100%" />
 
 ## <img src="https://img.icons8.com/fluency/48/000000/settings.png" width="28"/> Languages and Tools
 
@@ -61,15 +61,15 @@
   </tr>
 </table>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:667eea,50:764ba2,100:f093fb&section=header" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:00c6ff,50:0091f7,100:0052cc&section=header" width="100%" />
 
 ## <img src="https://img.icons8.com/color/48/000000/bar-chart.png" width="28"/> GitHub Stats
 
 <div align="center">
-  <img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=aleju03&theme=radical&hide_border=true" alt="GitHub Streak" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aleju03&theme=radical&hide_border=true&include_all_commits=true&count_private=true&layout=compact" alt="Top Languages" />
+  <img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=aleju03&hide_border=true&background=0d1117&ring=00c6ff&fire=00c6ff&currStreakNum=00c6ff&currStreakLabel=58a6ff&sideNums=58a6ff&sideLabels=8b949e&dates=8b949e&stroke=1f6feb" alt="GitHub Streak" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aleju03&title_color=00c6ff&text_color=c9d1d9&bg_color=0d1117&hide_border=true&include_all_commits=true&count_private=true&layout=compact" alt="Top Languages" />
 </div>
 
 <p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical&backgroundColor=0d1117" />
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&backgroundColor=0d1117&quoteColor=c9d1d9&authorColor=58a6ff&symbolColor=00c6ff" />
 </p>
