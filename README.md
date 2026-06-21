@@ -21,6 +21,7 @@
       <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src="https://skillicons.dev/icons?i=html" alt="HTML"/></a>
       <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img src="https://skillicons.dev/icons?i=css" alt="CSS"/></a>
       <a href="https://reactjs.org/"><img src="https://skillicons.dev/icons?i=react" alt="React"/></a>
+      <br />
       <a href="https://vitejs.dev/"><img src="https://skillicons.dev/icons?i=vite" alt="Vite"/></a>
       <a href="https://tailwindcss.com/"><img src="https://skillicons.dev/icons?i=tailwind" alt="Tailwind CSS"/></a>
       <a href="https://tanstack.com/start"><img src="https://go-skill-icons.vercel.app/api/icons?i=tanstack" alt="TanStack Start"/></a>
@@ -41,6 +42,7 @@
       <a href="https://expressjs.com/"><img src="https://skillicons.dev/icons?i=express" alt="Express"/></a>
       <a href="https://nestjs.com/"><img src="https://skillicons.dev/icons?i=nestjs" alt="NestJS"/></a>
       <a href="https://fastapi.tiangolo.com/"><img src="https://skillicons.dev/icons?i=fastapi" alt="FastAPI"/></a>
+      <br />
       <a href="https://firebase.google.com/"><img src="https://skillicons.dev/icons?i=firebase" alt="Firebase"/></a>
       <a href="https://redis.io/"><img src="https://skillicons.dev/icons?i=redis" alt="Redis"/></a>
       <a href="https://turso.tech/"><img src="https://go-skill-icons.vercel.app/api/icons?i=turso" alt="Turso"/></a>
@@ -61,6 +63,7 @@
       <a href="https://vercel.com/"><img src="https://skillicons.dev/icons?i=vercel" alt="Vercel"/></a>
       <a href="https://azure.microsoft.com/products/devops"><img src="https://go-skill-icons.vercel.app/api/icons?i=azuredevops" alt="Azure DevOps"/></a>
       <a href="https://argo-cd.readthedocs.io/"><img src="https://go-skill-icons.vercel.app/api/icons?i=argocd" alt="Argo CD"/></a>
+      <br />
       <a href="https://git-scm.com/"><img src="https://skillicons.dev/icons?i=git" alt="Git"/></a>
       <a href="https://code.visualstudio.com/"><img src="https://skillicons.dev/icons?i=vscode" alt="VS Code"/></a>
       <a href="https://developer.android.com/studio"><img src="https://skillicons.dev/icons?i=androidstudio" alt="Android Studio"/></a>
