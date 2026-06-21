@@ -36,6 +36,7 @@
         <a href="https://www.python.org/"><img src="https://skillicons.dev/icons?i=python" alt="Python"/></a>
         <a href="https://nodejs.org/"><img src="https://skillicons.dev/icons?i=nodejs" alt="Node.js"/></a>
         <a href="https://expressjs.com/"><img src="https://skillicons.dev/icons?i=express" alt="Express"/></a>
+        <a href="https://nestjs.com/"><img src="https://skillicons.dev/icons?i=nestjs" alt="NestJS"/></a>
         <a href="https://fastapi.tiangolo.com/"><img src="https://skillicons.dev/icons?i=fastapi" alt="FastAPI"/></a>
         <a href="https://firebase.google.com/"><img src="https://skillicons.dev/icons?i=firebase" alt="Firebase"/></a>
         <a href="https://redis.io/"><img src="https://skillicons.dev/icons?i=redis" alt="Redis"/></a>
@@ -54,6 +55,7 @@
         <a href="https://git-scm.com/"><img src="https://skillicons.dev/icons?i=git" alt="Git"/></a>
         <a href="https://code.visualstudio.com/"><img src="https://skillicons.dev/icons?i=vscode" alt="VS Code"/></a>
         <a href="https://developer.android.com/studio"><img src="https://skillicons.dev/icons?i=androidstudio" alt="Android Studio"/></a>
+        <a href="https://unity.com/"><img src="https://skillicons.dev/icons?i=unity" alt="Unity"/></a>
         <a href="https://openai.com/codex/"><img src="https://cdn.jsdelivr.net/npm/@lobehub/icons-static-svg@latest/icons/codex-color.svg" alt="Codex" width="48" height="48"/></a>
         <a href="https://www.anthropic.com/claude-code"><img src="./assets/claudecode.svg" alt="Claude Code" width="48" height="48"/></a>
       </p>
