@@ -40,6 +40,8 @@
       <a href="https://redis.io/"><img src="https://skillicons.dev/icons?i=redis" alt="Redis"/></a>
       <a href="https://turso.tech/"><img src="https://go-skill-icons.vercel.app/api/icons?i=turso" alt="Turso"/></a>
       <a href="https://www.sqlite.org/"><img src="https://skillicons.dev/icons?i=sqlite" alt="SQLite"/></a>
+      <a href="https://www.postgresql.org/"><img src="https://skillicons.dev/icons?i=postgres" alt="PostgreSQL"/></a>
+      <a href="https://www.microsoft.com/en-us/sql-server/"><img src="https://go-skill-icons.vercel.app/api/icons?i=sqlserver" alt="SQL Server"/></a>
     </td>
   </tr>
   <tr>
