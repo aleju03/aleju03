@@ -67,11 +67,5 @@
 </div>
 
 <p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&backgroundColor=0d1117&quoteColor=c9d1d9&authorColor=58a6ff&symbolColor=00c6ff" />
-</p>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:00c6ff,50:0091f7,100:0052cc&section=header" width="100%" />
-
-<p align="center">
-  <a href="https://aleju03.github.io/"><img src="https://img.shields.io/badge/Portfolio-0072ff?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0052cc" alt="Portfolio" /></a>
+  <img width="600" height="133" src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&backgroundColor=0d1117&quoteColor=c9d1d9&authorColor=58a6ff&symbolColor=00c6ff" />
 </p>
