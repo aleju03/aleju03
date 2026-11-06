@@ -61,6 +61,10 @@
 
 ## <img src="https://img.icons8.com/color/48/000000/bar-chart.png" width="28"/> GitHub Stats
 
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=aleju03&label=Profile%20views&color=0091f7&style=flat-square" alt="Profile views" />
+</p>
+
 <div align="center">
   <img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=aleju03&theme=github_dark" alt="GitHub Stats" />
   <img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=aleju03&theme=github_dark" alt="Top Languages" />
